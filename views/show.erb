@@ -1,0 +1,7 @@
+<h1> Team roster </h1>
+<%= name %>
+<ul>
+<% teams[name].each do |position, player| %>
+<li><%= position %><%= player %></li>
+<% end %>
+</ul>
